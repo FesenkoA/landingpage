@@ -1,0 +1,283 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  text-align:center;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.head {
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 66px;
+  color: #9DB0D1;
+  text-align: center;
+  margin: 100px 0 50px 0;
+  }
+
+.head2 {
+position: absolute;
+width: 1200px;
+height: 44px;
+left: 120px;
+top: 804px;
+text-align: center;
+color: #000000;
+font-family: 'Arapey';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 44px;
+background: #87C6EB;
+}
+.head3 {
+  position: absolute;
+width: 600px;
+height: 132px;
+left: 120px;
+top: 1533px;
+font-family: 'Arapey';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 44px;
+color: #FFFFFF;
+}
+
+.back {
+  background: #87C6EB;
+}
+
+.text {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Verdana';
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.text2 {
+  position: absolute;
+width: 600px;
+height: 73px;
+left: 120px;
+top: 1715px;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+
+.img1 {
+ position: absolute;
+width: 600px;
+height: 475px;
+
+}
+
+.caption {
+  background: url("../img/photo.png") repeat-x top / auto 200px,
+    linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 250px 120px 100px;
+  font-family: 'Arapey';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 44px;
+text-align: center;
+}
+
+.circle {
+ width: 60px;
+  height: 60px;
+  flex-grow: 0;
+  margin: 0 250px 10px 0;
+  padding: 12px 20px;
+  background-color: rgba(235, 172, 135, 0.4);
+}
+
+.list1 {
+width: 165px;
+  height: 24px;
+  flex-grow: 0;
+  margin: 18px 0 18px 15px;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.list2{
+  width: 224px;
+  height: 24px;
+  flex-grow: 0;
+  margin: 18px 0 18px 15px;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.list3{
+  width: 164px;
+  height: 24px;
+  flex-grow: 0;
+  margin: 18px 0 18px 15px;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.list4{
+  width: 178px;
+  height: 24px;
+  flex-grow: 0;
+  margin: 18px 0 18px 15px;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.center21 {
+  display:flex:;
+}
+.photo {
+  width: 1420px;
+  height: 200px;
+  margin-top: 50px;
+  object-fit: contain;
+
+}
+.rectangle {
+  color: #FFFFFF;
+  font-family: 'Arapey';
+  font-style: normal;
+  font-size: 30px;
+  line-height: 32px;
+  background: #EBAC87;
+  border-radius: 10px;
+  padding: 24px 50px;
+  text-transform: uppercase;
+  border: 0;
+  margin-bottom: 50px;
+  width: 267px;
+  height: 80px;
+}
+.circle {
+  color: #FFFFFF;
+  font-family: 'Verdana';
+font-style: normal;
+font-size: 30px;
+line-height: 36px;
+  background: #EBAC87;
+  border-radius: 50%;
+flex-grow: 0;
+  margin: 0 250px 10px 0;
+  padding: 12px 20px;
+  background-color: rgba(235, 172, 135, 0.4);
+
+}
+.bullet {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #9DB0D1;
+ 
+
+
+}
+.center {
+  display: flex;
+}
+
+
+.box {
+width: 350px;
+  height: 560px;
+  flex-grow: 0;
+  margin: 394px 75px 560px 120px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+
+}
+.container {
+  display: flex;
+  background: #87C6EB;
+
+
+
+}
